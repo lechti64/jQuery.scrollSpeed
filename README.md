@@ -1,13 +1,13 @@
 # jQuery.scrollSpeed
-Lightweight jQuery extension for modifying scrolling speed in modern web browsers. Supports vertical or horizontal scrolling direction, including user-defined easing.
+Extension jQuery légère pour modifier la vitesse de défilement dans les navigateurs Web modernes. Prend en charge la direction de défilement vertical ou horizontal, y compris l'assouplissement défini par l'utilisateur.
 
 ## Installation
-Include the latest version of [jQuery](http://jquery.com/download) and `jQuery.scrollSpeed.js` in the `<head>` of your HTML document:
+Inclure la dernière version de[jQuery](http://jquery.com/download) et `jQuery.scrollSpeed.js` dans le `<head>` de votre document HTML:
 ```html
 <script src="jQuery.min.js"></script>  
 <script src="jQuery.scrollSpeed.js"></script>
 ```
-## How to Use
+## Comment utiliser le script
 Reference the `scrollSpeed()` method and modify the `step` and `speed` parameters to create the desired scrolling effect. The `step` parameter defaults to `100` units, while `speed` defaults to `800` milliseconds; custom easing is optional. See the live demo: [code.nath.co/scrollSpeed](http://code.nath.co/scrollSpeed)
 
 ```javascript
